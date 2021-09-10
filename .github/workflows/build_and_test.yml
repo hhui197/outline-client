@@ -53,7 +53,7 @@ jobs:
       - name: Install Node.js
         uses: actions/setup-node@v2.2.0
         with:
-          node-version: 1
+          node-version: 12
           cache: npm
 
       - name: Upgrade NPM
